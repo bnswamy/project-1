@@ -1,0 +1,28 @@
+<script>
+   
+
+
+    var id=30;
+
+function counter()
+{
+    var count=0;
+    return function()
+    {
+        count++;
+        console.log(count);
+       
+    }
+}
+var mini= counter();
+    mini();mini();mini();mini();
+
+var draw= counter();
+    draw();draw();draw();draw();draw();draw();
+
+
+
+
+
+
+</script>
